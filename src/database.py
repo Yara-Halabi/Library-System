@@ -39,3 +39,7 @@ def get_books():
     
     conn.close()
     return books
+def test_connection():
+    conn = create_connection()
+    print("Database connection successful")
+    conn.close()
