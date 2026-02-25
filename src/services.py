@@ -16,3 +16,5 @@ def search_book_by_title(search_title):
             result.append(book)
 
     return result
+def test_service():
+    print("Service functions are working")
